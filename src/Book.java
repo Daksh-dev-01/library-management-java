@@ -14,6 +14,7 @@
  * Used by: LibrarySystem.java to manage books in the library database
  */
 
+
 public class Book {
     private int id;
     private String title;
