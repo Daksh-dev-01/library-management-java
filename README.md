@@ -1,25 +1,49 @@
-# Library Management System (Java)
+# 📚 Library Management System (Java)
 
-A simple console-based Library Management System written in Java.  
-It uses in-memory storage with `ArrayList` to manage books.
+A simple command-line Java project for managing a library with features like adding books, registering users, borrowing/returning books, and displaying borrowed items.
 
-## Features
-- Add, Search, Display, Issue, Return Books
-- Simple CLI-based menu
-- Java OOP structure with multiple classes
+## 🚀 Features
 
-## Technologies
-- Java (Standard Edition)
-- No external libraries or database used
+- Add new books to the system
+- Register users
+- Display all available books
+- Borrow and return books
+- View borrowed books per user
 
-## How to Run
-1. Compile: `javac *.java`
-2. Run: `java Main`
+## 🗂️ Project Structure
+.
+├── src/
+│ ├── Main.java
+│ ├── Book.java
+│ ├── User.java
+│ └── LibrarySystem.java
+├── assets/
+│ └── (screenshots here)
+├── README.md
+├── LICENSE
+└── .gitignore
 
-## Future Improvements
-- Add database support
-- GUI interface
-- User accounts
 
-## Author
-Daksh-dev-01
+## 🔧 Technologies Used
+
+- Java (JDK 17+)
+- No external libraries
+- CLI-based interface
+
+## 📸 Screenshots
+
+![Main Menu](assets/main_menu.png)
+![Add Book](assets/Add_book.png)
+![Display books](assets/Display_books.png)
+![Register new user](assets/Register_new_user.png)
+![Borrow_and_display_borrowed_books](assets/Borrow_and_display_borrowed_books.png)
+![Return_and_display_borrowed_books](assets/Return_and_display_borrowed_books.png)
+![Exit](assets/Exit.png)
+
+## 💡 How to Run
+
+1. Clone the repository
+2. Compile and run using:
+   ```bash
+   javac src/*.java
+   java src.Main
