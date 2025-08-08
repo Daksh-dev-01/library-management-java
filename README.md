@@ -12,15 +12,25 @@ A simple command-line Java project for managing a library with features like add
 
 ## # Project Structure
 .
+<br>
 ├── src/
+<br>
 │ ├── Main.java
+<br>
 │ ├── Book.java
+<br>
 │ ├── User.java
+<br>
 │ └── LibrarySystem.java
+<br>
 ├── assets/
+<br>
 │ └── (screenshots here)
+<br>
 ├── README.md
+<br>
 ├── LICENSE
+<br>
 └── .gitignore
 
 
