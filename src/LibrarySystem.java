@@ -1,6 +1,4 @@
-package src;
 
-import src.Book;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -15,6 +13,22 @@ import java.util.Scanner;
  * - Returning a book
  */
 
+ 
+/**
+ * LibrarySystem.java
+ * 
+ * Manages the core library logic using an in-memory ArrayList.
+ * 
+ * Features:
+ * - Stores and manages books (add, search, display, issue, return)
+ * - Checks availability and updates book status
+ * - Works as the backend logic used by Main.java
+ * 
+ * Limitations:
+ * - Does not save data permanently (no database)
+ */
+
+ 
 public class LibrarySystem {
     private ArrayList<Book> books;
     private Scanner scanner;
@@ -44,7 +58,7 @@ public class LibrarySystem {
         System.out.println("\nAvailable Books:");
         for (Book book : books) {
             if (book.isAvailable()) {
-                book.displayInfo();
+                book.displayBookInfo();
             }
         }
         System.out.println();
@@ -52,13 +66,13 @@ public class LibrarySystem {
 
     // Search for a book by title
     public void searchBook() {
-        System.out.print("Enter title to search: ");
+        System.out.println("Enter title to search: ");
         String searchTitle = scanner.nextLine().toLowerCase();
 
         boolean found = false;
         for (Book book : books) {
             if (book.getTitle().toLowerCase().contains(searchTitle)) {
-                book.displayInfo();
+                book.displayBookInfo();
                 found = true;
             }
         }
@@ -86,6 +100,11 @@ public class LibrarySystem {
         }
 
         System.out.println("Book ID not found.\n");
+    }
+
+    // Getter for books
+    public ArrayList<Book> getBooks() {
+        return books;
     }
 
     // Return a book by ID

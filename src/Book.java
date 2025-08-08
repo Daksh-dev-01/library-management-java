@@ -14,6 +14,22 @@
  * Used by: LibrarySystem.java to manage books in the library database
  */
 
+/**
+ * Book.java
+ * 
+ * A simple class representing a book in the library.
+ * 
+ * Fields:
+ * - title
+ * - author
+ * - isAvailable (boolean)
+ * 
+ * Provides:
+ * - Constructor
+ * - Getters and Setters
+ * - toString() method to display book details
+ */
+
 
 public class Book {
     private int id;
@@ -22,7 +38,7 @@ public class Book {
     private boolean isAvailable;
 
     // Constructor
-    public Book(int id, String title, String author) {
+    public Book(int id, String title, String author, boolean isAvailable) {
         this.id = id;
         this.title = title;
         this.author = author;

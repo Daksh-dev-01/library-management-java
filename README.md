@@ -1,35 +1,25 @@
-# Library Management System
+# Library Management System (Java)
 
-A Java-based desktop application for managing books in a library. It uses Java Swing for GUI and file/database storage for persistence.
+A simple console-based Library Management System written in Java.  
+It uses in-memory storage with `ArrayList` to manage books.
 
 ## Features
-- Add, remove, search books
-- Borrow and return functionality
-- Basic user/admin interface
-- (Optional) JDBC MySQL integration
+- Add, Search, Display, Issue, Return Books
+- Simple CLI-based menu
+- Java OOP structure with multiple classes
 
-## Tech Stack
-- Java
-- Java Swing
-- (Optional) JDBC & MySQL
-
-## Project Structure
-```
-src/
-├── Main.java
-├── Book.java
-├── User.java
-├── LibrarySystem.java
-├── DatabaseManager.java
-```
+## Technologies
+- Java (Standard Edition)
+- No external libraries or database used
 
 ## How to Run
-1. Clone the repo
-2. Open in any Java IDE (IntelliJ, Eclipse)
-3. Run `Main.java`
+1. Compile: `javac *.java`
+2. Run: `java Main`
 
-## Screenshots
-![UI Preview](assets/screenshot.png)
+## Future Improvements
+- Add database support
+- GUI interface
+- User accounts
 
-## License
-[MIT](LICENSE)
+## Author
+Daksh-dev-01
