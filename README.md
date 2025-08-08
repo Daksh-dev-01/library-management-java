@@ -1,8 +1,8 @@
-# 📚 Library Management System (Java)
+# # Library Management System (Java)
 
 A simple command-line Java project for managing a library with features like adding books, registering users, borrowing/returning books, and displaying borrowed items.
 
-## 🚀 Features
+## # Features
 
 - Add new books to the system
 - Register users
@@ -10,7 +10,7 @@ A simple command-line Java project for managing a library with features like add
 - Borrow and return books
 - View borrowed books per user
 
-## 🗂️ Project Structure
+## # Project Structure
 .
 ├── src/
 │ ├── Main.java
@@ -24,23 +24,29 @@ A simple command-line Java project for managing a library with features like add
 └── .gitignore
 
 
-## 🔧 Technologies Used
+## # Technologies Used
 
 - Java (JDK 17+)
 - No external libraries
 - CLI-based interface
 
-## 📸 Screenshots
+## # Screenshots
 
 ![Main Menu](assets/main_menu.png)
+<br>
 ![Add Book](assets/Add_book.png)
+<br>
 ![Display books](assets/Display_books.png)
+<br>
 ![Register new user](assets/Register_new_user.png)
+<br>
 ![Borrow_and_display_borrowed_books](assets/Borrow_and_display_borrowed_books.png)
+<br>
 ![Return_and_display_borrowed_books](assets/Return_and_display_borrowed_books.png)
+<br>
 ![Exit](assets/Exit.png)
 
-## 💡 How to Run
+## # How to Run
 
 1. Clone the repository
 2. Compile and run using:
